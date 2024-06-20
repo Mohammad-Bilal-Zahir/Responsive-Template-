@@ -1,0 +1,227 @@
+#header {
+    color: white;
+    background: #16a085;
+
+}
+
+.section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section h2.sectionHead {
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.section h2.sectionHead:after {
+    background: #16a085;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+
+
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+
+
+
+}
+
+#menu li a {
+
+    color: white;
+    padding: 15px 10px;
+    display: block;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background: #1abc9c;
+}
+
+#banner {
+    background: url(images/pic1.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+.bannerTitle h1 {
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.bannerTitle {
+    padding-top: 5rem;
+}
+
+.bannerTitle p.lead {
+    color: white;
+    background: rgba(22, 160, 133, 0.5);
+    padding: 10px;
+}
+
+.serviceBox {
+
+    text-align: center;
+}
+
+.serviceBox i.fa {
+    color: #16a085;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+#testimonial{
+    color: white;
+    background: url(images/pic4.png) no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+
+}
+#testimonial::before{
+    background: rgba(22, 160, 133,0.2);
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.testimonial img{
+    border-radius: 50%;
+    width: 5rem;
+    height: 4rem;
+}
+.newsPost img{
+    width:100%;
+    margin-bottom: 10px;
+}
+.newsPost h3{
+    font-size: 1.35rem;
+}
+.newsPost h3 a{
+    color: #16a085;
+}
+.postDate{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.postDate:before{
+    content: "\f073";
+    font-family: fontAwesome;
+    padding-right: 5px;
+
+}
+a.readmore{
+    font-size: 14px;
+    color: #16a085;
+}
+a.readmore:after{
+    content: "\f101";
+    font-family: fontAwesome;
+    padding-left: 5px;
+}
+#footerSideBar{
+    color: white;
+    background:#06755f;
+    padding: 20px 0;
+}
+.footerWidget h4:after{
+    content: "";
+    background: white;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 10px 0;
+}
+.footerWidget a{
+    color: white;
+}
+.latestNews{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.latestNews li{
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+.latestNews li a{
+    text-decoration: none;
+}
+.latestNews li:before{
+    content: "\f101";
+    font-family: fontAwesome;
+    padding-right: 5px;
+}
+#footer{
+    background: #045343;
+    color: white;
+}
+#socialIcons{
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+#socialIcons li{
+    display: inline-block;
+    padding-left: 5px;
+}
+#socialIcons li a{
+    color: white;
+    font-size: 23px;
+}
+@media (max-width: 768px){
+   #logo{
+    text-align: center;
+    margin: 10px 0;
+   }
+   #menu{
+    text-align: center;
+   }
+   .bannerTitle{
+    padding-top: 0;
+   }
+   .bannerTitle h1{
+    font-size: 1.7rem;
+   }
+    .testimonial{
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+    .serviceBox{
+        margin-bottom: 30px;
+    }
+    .newsPost{
+        margin-bottom: 30px;
+    }
+    .footerWidget{
+        margin-bottom: 20px;
+    }
+    #footer{
+        text-align: center;
+    }
+    #socialIcons{
+        margin-top: 10px;
+    }
+    .section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
